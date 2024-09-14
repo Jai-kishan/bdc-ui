@@ -90,9 +90,15 @@
     border-color: rgba(0, 0, 0, 0)
 }
 
-.dropdown-menu li:hover>.dropdown-item {
+/* .dropdown-menu li:hover>.dropdown-item {
     color: var(--cz-primary)
 }
+
+
+.dropdown-menu .active li:hover>.dropdown-item {
+    color: var(--cz-white)
+} */
+
 
 .dropdown-menu .active>.dropdown-item {
     color: var(--cz-primary)
