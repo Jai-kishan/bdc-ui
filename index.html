@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -29,13 +31,16 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 8rem; height: 8rem;" role="status"></div>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-primary" style="width: 8rem; height: 8rem;" role="status">
+        </div>
         <img class="position-absolute top-50 start-50 translate-middle" src="img/bdc-sp.png" alt="Icon">
     </div>
     <!-- Spinner End -->
@@ -46,8 +51,10 @@
         <div class="row gx-0 d-none d-lg-flex">
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
-                    <a class="text-body px-2" href="tel:+0123456789"><i class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
-                    <a class="text-body px-2" href="mailto:info@example.com"><i class="fa fa-envelope-open text-primary me-2"></i>info@example.com</a>
+                    <a class="text-body px-2" href="tel:+0123456789"><i
+                            class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
+                    <a class="text-body px-2" href="mailto:bihardevcollective@gmail.com"><i
+                            class="fa fa-envelope-open text-primary me-2"></i>bihardevcollective@gmail.com</a>
                 </div>
             </div>
             <div class="col-lg-5 px-5 text-end">
@@ -56,19 +63,19 @@
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-0" target="_blank" href=""><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Topbar End -->
 
-
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
         <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
             <h1 class="text-primary m-0"><img class="me-3" src="img/icons/bdc.png" alt="Icon"></h1>
         </a>
@@ -78,22 +85,74 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="feature.html" class="dropdown-item">Our Features</a>
-                        <a href="project.html" class="dropdown-item">Our Projects</a>
-                        <a href="team.html" class="dropdown-item">Team Members</a>
-                        <a href="donation.html" class="dropdown-item">Donation</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
-                    </div>
+                <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside">About</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="about.html">Core Values</a></li>
+                        <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
+                        <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
+                        <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                        <li><a class="dropdown-item" href="history-and-evolution.html">History and Evolution</a>
+                        </li>
+                        <li><a class="dropdown-item" href="governance-advisory.html">Governance and Advisory Board</a></li>
+                    </ul>
                 </div>
+
+                <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside">Pages</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Development Professionals</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="account-password-recovery.html">How to Get
+                                        Associated</a></li>
+                                <li><a class="dropdown-item" href="careers.html">Careers</a></li>
+                                <li><a class="dropdown-item" href="volunteer-internship.html">Volunteer/Internship
+                                        <br> Opportunities</a></li>
+                                <li><a class="dropdown-item" href="account-signin.html">Share your Story</a></li>
+                                <li><a class="dropdown-item" href="account-signin.html">How can We Support You</a></li>
+                                <li><a class="dropdown-item" href="account-signin.html">Get Your Papers Published</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Donors and Partners</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="dashboard-settings.html">Impact Stories</a></li>
+                                <li><a class="dropdown-item" href="dashboard-purchases.html">Impact in Numbers</a></li>
+                                <li><a class="dropdown-item" href="dashboard-favorites.html">Audit Reports</a></li>
+                                <li><a class="dropdown-item" href="dashboard-favorites.html">Annual Reports</a></li>
+                                <li><a class="dropdown-item" href="dashboard-favorites.html">Testimonials by
+                                        Partners</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#"
+                                data-bs-toggle="dropdown">Civil Society Organizations<span
+                                    class="badge bg-danger ms-1">NEW</span></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="nft-account-settings.html">Governance Support</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nft-account-payouts.html">Strengthening
+                                        Compliance</a></li>
+                                <li><a class="dropdown-item" href="nft-account-my-items.html">OD Support Services</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nft-account-my-items.html">Collaborate with BDC</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nft-account-my-items.html">Incubation Support</a>
+                                </li>
+                                <li><a class="dropdown-item" href="nft-account-my-items.html">Testimonials by
+                                        Members</a></li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="account-signin.html">Membership Norms</a></li>
+                        <li><a class="dropdown-item" href="account-password-recovery.html">Case Studies/Stories</a></li>
+                    </ul>
+                </div>
+
+                <a href="programs.html" class="nav-item nav-link">Programs</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Donation</a>
+            <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Sampark</a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -102,42 +161,98 @@
     <!-- Carousel Start -->
     <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="owl-carousel header-carousel position-relative">
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/1.png'>">
-                <img class="img-fluid" src="img/team_pic.webp" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/1.png'>">
+                <img class="img-fluid" src="img/Slider/1.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Strengthening Bihar's Development Ecosystem</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Dedicated to reinforcing the current development landscape in Bihar by fostering sustainable growth and innovative solutions.</p>
+                                <h1 class="display-1 text-white animated slideInDown">Strengthening Bihar's Development
+                                    Ecosystem</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">Dedicated to reinforcing the current
+                                    development landscape in Bihar by fostering sustainable growth and innovative
+                                    solutions.</p>
                                 <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/2.png'>">
-                <img class="img-fluid" src="img/2.png" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/2.png'>">
+                <img class="img-fluid" src="img/Slider/2.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Creating a Thriving Platform for Peer Learning</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">develops an engaging platform that encourages peer-to-peer learning, enabling individuals to share knowledge and experiences effectively.</p>
+                                <h1 class="display-1 text-white animated slideInDown">Creating a Thriving Platform for
+                                    Peer Learning</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">develops an engaging platform that
+                                    encourages peer-to-peer learning, enabling individuals to share knowledge and
+                                    experiences effectively.</p>
                                 <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="owl-carousel-item position-relative" data-dot="<img src='img/3.png'>">
-                <img class="img-fluid" src="img/3.png" alt="">
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/3.png'>">
+                <img class="img-fluid" src="img/Slider/3.png" alt="">
                 <div class="owl-carousel-inner">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h1 class="display-1 text-white animated slideInDown">Building a Community for Cross-Learning</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-3">aims to cultivate a supportive community where cross-learning and mutual growth are central, driving collective progress.</p>
+                                <h1 class="display-1 text-white animated slideInDown">Building a Community for
+                                    Cross-Learning</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">aims to cultivate a supportive community
+                                    where cross-learning and mutual growth are central, driving collective progress.</p>
+                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/4.png'>">
+                <img class="img-fluid" src="img/Slider/4.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Building a Community for
+                                    Cross-Learning</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">aims to cultivate a supportive community
+                                    where cross-learning and mutual growth are central, driving collective progress.</p>
+                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/7.png'>">
+                <img class="img-fluid" src="img/Slider/7.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Building a Community for
+                                    Cross-Learning</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">aims to cultivate a supportive community
+                                    where cross-learning and mutual growth are central, driving collective progress.</p>
+                                <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative" data-dot="<img src='img/Slider/6.png'>">
+                <img class="img-fluid" src="img/Slider/6.png" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-10 col-lg-8">
+                                <h1 class="display-1 text-white animated slideInDown">Building a Community for
+                                    Cross-Learning</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-3">aims to cultivate a supportive community
+                                    where cross-learning and mutual growth are central, driving collective progress.</p>
                                 <a href="" class="btn btn-primary py-3 px-5 animated slideInLeft">Read More</a>
                             </div>
                         </div>
@@ -158,8 +273,12 @@
                         <div class="fact-icon">
                             <img src="img/icons/icon-2.png" alt="Icon">
                         </div>
-                        <h3 class="mb-3">Design Approach</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <h3 class="mb-3">Vision</h3>
+                        <h4>Changing the narrative of Bihar</h4>
+                        <p class="mb-0">To create a sustainable and dynamic community of social entrepreneurs who are
+                            not only driven to bring about the sustainable solutions to the social issues in their
+                            respective geographies but match with the international standards of financial compliance
+                            and governance system.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -167,8 +286,11 @@
                         <div class="fact-icon">
                             <img src="img/icons/icon-3.png" alt="Icon">
                         </div>
-                        <h3 class="mb-3">Innovative Solutions</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <h3 class="mb-3">Mission</h3>
+                        <h4>Empowering Bihar’s Development Ecosystem</h4>
+                        <p class="mb-0">To collaborate with passionate individuals and organizations to build a thriving
+                            platform that supports peer learning, collaboration, mentoring, and cross-learning, thereby
+                            strengthening the local development ecosystem in Bihar.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -176,8 +298,13 @@
                         <div class="fact-icon">
                             <img src="img/icons/icon-4.png" alt="Icon">
                         </div>
-                        <h3 class="mb-3">Project Management</h3>
-                        <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                        <h3 class="mb-3">Values</h3>
+                        <h4>Togetherness and Mutual Growth</h4>
+                        <p class="mb-0">Instilling the essence of inclusivity of genders, religions, casts, faiths, age
+                            across all of our operations and group formation.
+                            <br>Fostering an environment of togetherness and mutual growth through safe spaces for peer
+                            learning and mentorship.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -200,11 +327,15 @@
                     <h4 class="section-title">About Us</h4>
                     <h1 class="display-5 mb-4">The Bihar Development Collective</h1>
                     <p>
-                        This joint initiative of passionate individuals and organizations aims to strengthen Bihar's development ecosystem. By creating a thriving platform and community, BDC fosters safe peer learning, collaboration, mentoring, and cross-learning, all with the goal of developing and enhancing the local development ecosystem in Bihar.</p>
-            
+                        This joint initiative of passionate individuals and organizations aims to strengthen Bihar's
+                        development ecosystem. By creating a thriving platform and community, BDC fosters safe peer
+                        learning, collaboration, mentoring, and cross-learning, all with the goal of developing and
+                        enhancing the local development ecosystem in Bihar.</p>
+
                     <div class="d-flex align-items-center mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary" style="width: 120px; height: 120px;">
-                            <h1 class="display-1 mb-n2" data-toggle="counter-up">25</h1>
+                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
+                            style="width: 120px; height: 120px;">
+                            <h1 class="display-1 mb-n2" data-toggle="counter-up">05</h1>
                         </div>
                         <div class="ps-4">
                             <h3>Years</h3>
@@ -249,7 +380,7 @@
                             <img class="mb-4" src="img/objectives/meeting.png" alt="Icon">
                             <h3 class="mb-3">Safe Space for Sharing</h3>
                             <p class="mb-4">A trusted space for individuals to reflect, connect, share, and learn.
-                                 Confidentiality is maintained to build trust, with strict action against breaches.</p>
+                                Confidentiality is maintained to build trust, with strict action against breaches.</p>
                             <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
@@ -261,87 +392,12 @@
                             <img class="mb-4" src="img/objectives/capicity_icon.png" alt="Icon">
                             <h3 class="mb-3">Collective Capacity Building</h3>
 
-                            <p class="mb-4">Organizing leadership sessions, sector workshops, and meet-ups to enhance collective 
-                                capacity and align efforts on work, accounting systems, HR policies, and legal frameworks.</p>
+                            <p class="mb-4">Organizing leadership sessions, sector workshops, and meet-ups to enhance
+                                collective
+                                capacity and align efforts on work, accounting systems, HR policies, and legal
+                                frameworks.</p>
                             <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Re
                                 ad More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class
-                    ="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/mentor.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/mentoring_icon.png" alt="Icon">
-                            <h3 class="mb-3">Mentoring </h3>
-                            <p class="mb-4">Finding suitable mentors and connecting them to individuals/organizations 
-                                needing their support. Provide support to incubate ideas at basic level & help them
-                                 nurture within collective’s capacity.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/Publishing_stories_practices.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/publishing_stories_icon.png" alt="Icon">
-                            <h3 class="mb-3">Publishing Stories and Practices</h3>
-                            <p class="mb-4">Creating and publishing positive & on-ground primary stories on its
-                                 different publicity channels like newsletters, website, social media etc.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/collecting_research_info.jpg" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/research.png" alt="Icon">
-                            <h3 class="mb-3">Collecting Research and Info</h3>
-                            <p class="mb-4">Gathering scattered information from different sources that sometimes 
-                                are out of reach for development practitioners and collecting them at a single place 
-                                to make it accessible for the community.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/fourn.webp" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/team-meeting.png" alt="Icon">
-                            <h3 class="mb-3">Creating forum & Observatory</h3>
-                            <p class="mb-4">Creating a platform for issue-focused dialogues with stakeholders including government,
-                                 donors, and academics. Offering basic short-term accommodations for those exploring Bihar or
-                                  volunteering with us.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/opportunity.webp" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/market.png" alt="Icon">
-                            <h3 class="mb-3">Identifying Opportunities</h3>
-                            <p class="mb-4"> Exploring different funding sources, incubation platforms, potential 
-                                idea-mentor match, collaborations that are valuable etc.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex position-relative text-center h-100">
-                        <img class="bg-img" src="img/objectives/attract_people.png" alt="">
-                        <div class="service-text p-5">
-                            <img class="mb-4" src="img/objectives/team.png" alt="Icon">
-                            <h3 class="mb-3">Attracting Individuals </h3>
-                            <p class="mb-4"> Identifying people who wants to come to Bihar to work or to volunteer, 
-                                to become an intern, to research or anything connecting to suitable, trustworthy people
-                                 who could support.</p>
-                            <a class="btn" href=""><i class="fa fa-plus text-primary me-3"></i>Read More</a>
                         </div>
                     </div>
                 </div>
@@ -352,20 +408,23 @@
 
 
     <!-- Feature Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h4 class="section-title">Why Choose Us!</h4>
-                    <h1 class="display-5 mb-4">Why You Should Trust Us? Learn More About Us!</h1>
-                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                    <h1 class="display-5 mb-4">What benefits will you gain by collaborating with us?</h1>
+                    <p class="mb-4">Our mission is to serve as a support system for development organizations in Bihar,
+                        fostering a strong community where mutual learning thrives. We aim to change the narrative of
+                        Bihar, inspiring others to contribute to its growth. By promoting collaboration and
+                        partnerships, we strive to benefit the entire state.</p>
                     <div class="row g-4">
                         <div class="col-12">
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="img/icons/icon-2.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Design Approach</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h3>Support System</h3>
+                                    <p class="mb-0">To be a support system to development organizations in Bihar.</p>
                                 </div>
                             </div>
                         </div>
@@ -373,8 +432,19 @@
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="img/icons/icon-3.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Innovative Solutions</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h3>Learning Community</h3>
+                                    <p class="mb-0">To create a strong community where we learn immensely from each
+                                        other.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex align-items-start">
+                                <img class="flex-shrink-0" src="img/icons/thinking.png" alt="Icon">
+                                <div class="ms-4">
+                                    <h3>Changing Narrative</h3>
+                                    <p class="mb-0">To work towards changing the narrative of Bihar, and inspire others
+                                        to work here.</p>
                                 </div>
                             </div>
                         </div>
@@ -382,11 +452,11 @@
                             <div class="d-flex align-items-start">
                                 <img class="flex-shrink-0" src="img/icons/icon-4.png" alt="Icon">
                                 <div class="ms-4">
-                                    <h3>Project Management</h3>
-                                    <p class="mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                                    <h3>Collaboration and Partnerships</h3>
+                                    <p class="mb-0">To create an environment for collaboration and partnerships to
+                                        benefit the state.</p>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -399,7 +469,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Feature End -->
 
 
@@ -408,22 +478,22 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Our Projects</h4>
-                <h1 class="display-5 mb-4">Visit Our Latest Projects And Our Innovative Works</h1>
+                <h1 class="display-5 mb-4">Our Innovative Works And Programs</h1>
             </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4 wow fadeInUp pb-5" data-wow-delay="0.3s">
                 <div class="col-lg-4">
                     <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active" data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
-                            <h3 class="m-0">01. Modern Complex</h3>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-1" type="button">
+                            <h3 class="m-0">01. Internship Drive</h3>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
-                            <h3 class="m-0">02. Royal Hotel</h3>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-2" type="button">
+                            <h3 class="m-0">02. Publication and Research</h3>
                         </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4" data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
-                            <h3 class="m-0">03. Mexwel Buiding</h3>
-                        </button>
-                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0" data-bs-toggle="pill" data-bs-target="#tab-pane-4" type="button">
-                            <h3 class="m-0">04. Shopping Complex</h3>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-3" type="button">
+                            <h3 class="m-0">03. Masterclass</h3>
                         </button>
                     </div>
                 </div>
@@ -433,16 +503,17 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-1.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/Internship-drive.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Project Management</p>
+                                    <h1 class="mb-3">Internship Drive: Empowering Bihar’s Future Professionals</h1>
+                                    <p class="mb-4">A flagship program offering internship opportunities for students
+                                        with member organizations across Bihar, providing dual mentorship to develop
+                                        skills and explore career paths.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Since 2020</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>90+ Interns benefited</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
@@ -453,16 +524,19 @@
 
                                     <div class="position-relative h-100">
                                         <img class="position
-                                        -absolute img-fluid w-100 h-100" src="img/project-2.jpg"
+                                        -absolute img-fluid w-100 h-100" src="img/programs/publication-&-research.jpg"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Project Management</p>
+                                    <h1 class="mb-3">Publication and Research: Showcasing Change and Impact through
+                                        'SAMPARK'</h1>
+                                    <p class="mb-4">A platform to connect member organizations with stakeholders by
+                                        publishing stories of change and research in the monthly magazine, "SAMPARK."
+                                    </p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Since 2023</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>11 Magazines and 1 Booklet Published
+                                    </p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
@@ -471,34 +545,19 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-3.jpg"
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/master-class.png"
                                             style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Project Management</p>
-                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="tab-pane-4">
-                            <div class="row g-4">
-                                <div class="col-md-6" style="min-height: 350px;">
-                                    <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/project-4.jpg"
-                                            style="object-fit: cover;" alt="">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h1 class="mb-3">25 Years Of Experience In Architecture Industry</h1>
-                                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Design Approach</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Innovative Solutions</p>
-                                    <p><i class="fa fa-check text-primary me-3"></i>Project Management</p>
+                                    <h1 class="mb-3">Masterclass: Strengthening Change-Leaders through Expert-Led
+                                        Webinars</h1>
+                                    <p class="mb-4">A series of virtual sessions where subject experts share knowledge
+                                        and skills to enhance the capacity and impact of member organizations, open to
+                                        all participants.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Since 2022</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>20+ Masterclass</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>600+ Beneficiaries</p>
                                     <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
                                 </div>
                             </div>
@@ -506,13 +565,140 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Second Program -->
+
+            <div class="row g-4 wow fadeInUp pt-5" data-wow-delay="0.3s">
+                <div class="col-lg-8">
+                    <div class="tab-content w-100">
+                        <div class="tab-pane fade" id="tab-pane-5">
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Meet-up: Building Collaboration and Growth</h1>
+                                    <p class="mb-4">A biannual residential workshop that brings together BDC members to
+                                        plan activities, collaborate, and rejuvenate, hosted by rotating member
+                                        organizations.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Since 2019</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>11 Meet-ups conducted</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/bdc-meet-ups.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade show active" id="tab-pane-6">
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Bihar Darshan: Immersive Heritage Journeys</h1>
+                                    <p class="mb-4">A 7-10 day immersive journey inviting people to explore Bihar’s
+                                        culture, history, and transformation, led by change-makers on a mission to shape
+                                        the state’s future.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Commencing from September 2024</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                <div class="col-md-6" style="min-height: 350px;">
+
+                                    <div class="position-relative h-100">
+                                        <img class="position
+                                        -absolute img-fluid w-100 h-100" src="img/programs/bihar-darshan.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="tab-pane-7">
+                            <div class="row g-4">
+
+                                <div class="col-md-6">
+                                    <h1 class="mb-3">Membership Drive: Expanding BDC’s Network</h1>
+                                    <p class="mb-4">An annual event where existing members renew their membership and
+                                        new organizations apply, based on recommendations from current members.</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>Since 2019</p>
+                                    <p><i class="fa fa-check text-primary me-3"></i>25 Organizations & 6 Individuals</p>
+                                    <a href="" class="btn btn-primary py-3 px-5 mt-3">Read More</a>
+                                </div>
+                                <div class="col-md-6" style="min-height: 350px;">
+                                    <div class="position-relative h-100">
+                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/membership-drive-1.jpg"
+                                            style="object-fit: cover;" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4">
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-5" type="button">
+                            <h3 class="m-0">04. BDC Meet-up</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-6" type="button">
+                            <h3 class="m-0">05. Bihar Darshan</h3>
+                        </button>
+                        <button class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                            data-bs-toggle="pill" data-bs-target="#tab-pane-7" type="button">
+                            <h3 class="m-0">06. Membership Drive</h3>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </div>
+
+
     <!-- Project End -->
 
 
-    <!-- Team Start -->
+    <!-- Testimonial Start -->
     <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h4 class="section-title">Testimonial</h4>
+                <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed
+                        sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+                        justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed
+                        sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+                        justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+                <div class="testimonial-item text-center"
+                    data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
+                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed
+                        sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum
+                        justo sea clita.</p>
+                    <h3>Client Name</h3>
+                    <span class="text-primary">Profession</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+
+    <!-- Team Start -->
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h4 class="section-title">Team Members</h4>
@@ -585,12 +771,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
 
     <!-- donation Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -616,7 +802,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Mail Us Now</p>
-                                    <h3 class="mb-0">info@example.com</h3>
+                                    <h3 class="mb-0">bihardevcollective@gmail.com</h3>
                                 </div>
                             </div>
                         </div>
@@ -665,37 +851,8 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- donation End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h4 class="section-title">Testimonial</h4>
-                <h1 class="display-5 mb-4">Thousands Of Customers Who Trust Us And Our Services</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-1.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-2.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-                <div class="testimonial-item text-center" data-dot="<img class='img-fluid' src='img/testimonial-3.jpg' alt=''>">
-                    <p class="fs-5">Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed. Magna ut diam sit et amet stet eos sed clita erat magna elitr erat sit sit erat at rebum justo sea clita.</p>
-                    <h3>Client Name</h3>
-                    <span class="text-primary">Profession</span>
-                </div>
-            </div>      
-        </div>
-    </div>
-    <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
@@ -704,16 +861,17 @@
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h3 class="text-light mb-4">Address</h3>
-                     
-                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>BDC Impact Foundation, 
-                         <br>&emsp; J468+F54, Sri Krishna Puri <br>&emsp;  Patna, Bihar 800001</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 - XXXXXXXXXX</p>
-                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i> XYZ@gmail.com</p>
+
+                    <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>BDC Impact Foundation,
+                        <br>&emsp; B/194, 2nd Floor, Chandrayog, <br>&emsp; SK Puri, Patna, Bihar 800001
+                    </p>
+                    <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 90064 49330</p>
+                    <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i> bihardevcollective@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href="https://www.youtube.com/@bihardevelopmentcollective9307"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-body me-0" target="_blank" href=""><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -737,22 +895,22 @@
                     <!-- <h4 class="text-white mb-3">Gallery</h4> -->
                     <div class="row g-2 pt-2">
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/cam-1.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/bihar-darshan-1.jpg" alt="">
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/acad-1.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/membership-drive-1.jpg" alt="">
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/cam-3.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/bihar-darshan.jpg" alt="">
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/event-4.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/membership-drive-2.jpg" alt="">
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/stud-2.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/publication-research.jpg" alt="">
                         </div>
                         <div class="col-3">
-                            <img class="img-fluid bg-light p-1" src="img/event/event-5.png" alt="">
+                            <img class="img-fluid bg-light p-1" src="img/programs/publication-&-research.jpg" alt="">
                         </div>
                     </div>
                     <!-- <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
@@ -767,7 +925,8 @@
             <div class="container">
                 <div class="row g-4 align-items-center text-center">
                     <a>&copy; 2024 | Designed and Developed by Social Coder's</a>
-                    <a style="margin-top: 2px;">BDC Impact Foundation is registered as a section 8 company with CIN: U853000BR2022NPL059085</a>                
+                    <a style="margin-top: 2px;">BDC Impact Foundation is registered as a section 8 company with CIN:
+                        U853000BR2022NPL059085</a>
                 </div>
             </div>
         </div>
