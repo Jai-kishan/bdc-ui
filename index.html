@@ -9,7 +9,15 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/bdc-fav.png" rel="icon">
+    <!-- <link href="img/bdc-fav.png" rel="icon"> -->
+    <link rel="icon"
+        href="https://i0.wp.com/bihardevcollective.org/wp-content/uploads/2019/09/cropped-icon.png?fit=32%2C32&#038;ssl=1"
+        sizes="32x32" />
+    <link rel="icon"
+        href="https://i0.wp.com/bihardevcollective.org/wp-content/uploads/2019/09/cropped-icon.png?fit=192%2C192&#038;ssl=1"
+        sizes="192x192" />
+    <link rel="apple-touch-icon"
+        href="https://i0.wp.com/bihardevcollective.org/wp-content/uploads/2019/09/cropped-icon.png?fit=180%2C180&#038;ssl=1" />
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,12 +45,14 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
-        <img class="position-absolute top-50 start-50 translate-middle" src="img/bdc-sp.png" alt="Icon">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-primary" style="width: 3rem; height: 3rem;" role="status">
+        </div>
+        <!-- <img class="position-absolute top-50 start-50 translate-middle" src="img/fav-icon-1.png" alt="Icon"> -->
+        <img class="position-absolute top-50 start-50 translate-middle" src="img/fav-icon-1.png" alt="Icon">
     </div>
     <!-- Spinner End -->
-
 
     <!-- Topbar Start -->
     <div class="container-fluid bg-dark p-0 wow fadeIn" data-wow-delay="0.1s">
@@ -50,7 +60,7 @@
             <div class="col-lg-7 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-3">
                     <a class="text-body px-2" href="tel:+0123456789"><i
-                            class="fa fa-phone-alt text-primary me-2"></i>+012 345 6789</a>
+                            class="fa fa-phone-alt text-primary me-2"></i>+91 92001 93147</a>
                     <a class="text-body px-2" href="mailto:bihardevcollective@gmail.com"><i
                             class="fa fa-envelope-open text-primary me-2"></i>bihardevcollective@gmail.com</a>
                 </div>
@@ -61,10 +71,14 @@
                     <a class="text-body px-2" href="">Privacy</a>
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
-                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="btn btn-sm-square btn-outline-body me-0" target="_blank" href=""><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank"
+                        href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i
+                            class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-1" target="_blank" href=""><i
+                            class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-sm-square btn-outline-body me-0" target="_blank" href=""><i
+                            class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -83,16 +97,17 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
-                <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                        data-bs-auto-close="outside">About</a>
+                <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" style="cursor:pointer"
+                        data-bs-toggle="dropdown" data-bs-auto-close="outside">About</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="about.html">Core Values</a></li>
                         <li><a class="dropdown-item" href="constitution.html">Constitution</a></li>
                         <li><a class="dropdown-item" href="testimonial.html">Testimonial</a></li>
-                        <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                        <!-- <li><a class="dropdown-item" href="404.html">404 Page</a></li> -->
                         <li><a class="dropdown-item" href="history-and-evolution.html">History and Evolution</a>
                         </li>
-                        <li><a class="dropdown-item" href="governance-advisory.html">Governance and Advisory Board</a></li>
+                        <li><a class="dropdown-item" href="governance-advisory.html">Governance and Advisory Board</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -147,7 +162,20 @@
                     </ul>
                 </div>
 
-                <a href="programs.html" class="nav-item nav-link">Programs</a>
+                <div class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside">Programs</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="internship-drive.html">Internship Drive</a></li>
+                        <li><a class="dropdown-item" href="publication-and-research.html">Publication and Research</a>
+                        </li>
+                        <li><a class="dropdown-item" href="master-class.html">Masterclass</a></li>
+                        <li><a class="dropdown-item" href="bdc-meet-up.html">BDC Meet-up</a></li>
+                        <li><a class="dropdown-item" href="bihar-darshan.html">Bihar Darshan</a></li>
+                        <li><a class="dropdown-item" href="membership-drive.html">Membership Drive</a></li>
+                        <li><a class="dropdown-item" href="objective-and-activities.html">Objective & Activities</a>
+                        </li>
+                    </ul>
+                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block">Sampark</a>
@@ -501,8 +529,8 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/Internship-drive.jpg"
-                                            style="object-fit: cover;" alt="">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="img/programs/Internship-drive.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -543,8 +571,8 @@
                             <div class="row g-4">
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/master-class.png"
-                                            style="object-fit: cover;" alt="">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="img/programs/master-class.png" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -582,8 +610,8 @@
                                 </div>
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/bdc-meet-ups.jpg"
-                                            style="object-fit: cover;" alt="">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="img/programs/bdc-meet-ups.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -622,8 +650,8 @@
                                 </div>
                                 <div class="col-md-6" style="min-height: 350px;">
                                     <div class="position-relative h-100">
-                                        <img class="position-absolute img-fluid w-100 h-100" src="img/programs/membership-drive-1.jpg"
-                                            style="object-fit: cover;" alt="">
+                                        <img class="position-absolute img-fluid w-100 h-100"
+                                            src="img/programs/membership-drive-1.jpg" style="object-fit: cover;" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -789,7 +817,7 @@
                                 </div>
                                 <div class="ms-4">
                                     <p class="mb-2">Call Us Now</p>
-                                    <h3 class="mb-0">+012 345 6789</h3>
+                                    <h3 class="mb-0">+91 92001 93147</h3>
                                 </div>
                             </div>
                         </div>
@@ -866,10 +894,15 @@
                     <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>+91 90064 49330</p>
                     <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i> bihardevcollective@gmail.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href="https://www.youtube.com/@bihardevelopmentcollective9307"><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-body me-0" target="_blank" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank"
+                            href="https://www.facebook.com/bihardevcollective/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-body me-1" target="_blank"
+                            href="https://www.youtube.com/@bihardevelopmentcollective9307"><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-body me-0" target="_blank" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
