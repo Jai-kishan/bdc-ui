@@ -12,7 +12,9 @@ first need to raise the PR for development
     - feat : fixing some issues
 
 
-Title : Update loadder and FavIcon
+Title : Add program pages
 Date : 13-Oct-2024
 Dev : Jai Kishan
-- Updated lodder img and fav icon
+- Updated active tab as needed on selected page
+- Added all program pages (Internship Drive, Publication and Research,
+- Masterclass, BDC Meet-up, Bihar Darshan, Membership Drive, Objective & Activities)
